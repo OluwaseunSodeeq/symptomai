@@ -25,8 +25,9 @@
         <div class="logo">
           <div>
             <img
-              src="{{ url_for('static', filename='images/SymptomsAI logo.jpg') }}"
+              src="{{ url_for('static', filename='images/ourlogo.jpg') }}"
               id="header-logo"
+              alt="SymptomsAI Logo"
             />
           </div>
           <h1>SymptomAI</h1>
@@ -35,7 +36,7 @@
     </div>
     <h3>AI powered symptom diagnosis</h3>
     <section id="form-container">
-      <p>Resume your symptom check</p>
+      <p>Fill in your data</p>
       <div class="form-wrap">
         <form method="POST" action="{{ url_for('signIn') }}">
           <div class="form-group">

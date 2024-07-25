@@ -52,12 +52,27 @@ header {
 }
 
 .head {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 7px;
   color: #002366;
   margin-top: 10px;
+  /* border: 2px solid red; */
 }
+/* .head > a {
+  position: relative;
+  font-style: italic;
+  color: #002366;
+}
+.head > a > h1 {
+  display: inline;
+}
+.head > a > .aaa {
+  position: absolute;
+  left: 20px;
+  top: 0;
+} */
 
 .head p {
   margin-left: 10px;
@@ -241,6 +256,7 @@ footer {
 #myBtn {
   display: none;
   position: fixed;
+
   bottom: 20px;
   right: 30px;
   z-index: 99;
@@ -254,10 +270,20 @@ footer {
 }
 
 /* Media Queries */
+
 @media (max-width: 576px) {
   /* Navigation */
+  header {
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+  }
+  .head {
+    margin-left: -20px;
+  }
   .hamburger-menu {
     display: block;
+    margin-top: 10px;
   }
   .navigation {
     display: none;
@@ -335,6 +361,9 @@ footer {
 }
 
 @media (max-width: 992px) {
+  header {
+    width: 80%;
+  }
   nav {
     gap: 30px;
   }
