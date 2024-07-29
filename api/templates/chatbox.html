@@ -88,7 +88,6 @@
             diagnosisDiv.classList.add("diagnosis-result");
             diagnosisDiv.innerHTML = `
               <p>${data.diagnosis}</p>
-              <img src="${data.confidence_score_image}" alt="Confidence Score" />
             `;
             main.appendChild(diagnosisDiv);
             document.getElementById("symptomSearchBox").value = "";
