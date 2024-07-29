@@ -237,3 +237,24 @@ header p {
     width: 80%;
   }
 }
+
+.diagnosis-result {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #002366;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+}
+
+.diagnosis-result p {
+  color: #002366;
+  font-size: 18px;
+}
+
+.diagnosis-result img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
