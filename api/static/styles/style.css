@@ -224,7 +224,7 @@ nav a:hover {
 /* Benefits */
 .benefits {
   display: flex;
-/*   flex-direction: column; */
+  flex-direction: column; /* Set flex direction to column */
   gap: 15px;
   justify-content: center;
   align-items: center;
@@ -232,12 +232,21 @@ nav a:hover {
   background-color: #008080;
 }
 
-.flex-benefits{
-   flex-direction: column;
-/*   flex-wrap: wrap; */
+.benefits > div {
+  display: flex;
+  flex-direction: column; 
+  padding: 20px;
+/*   background-color: #ffffff;  */
+  border-radius: 5px; 
+}
+
+.flex-benefits {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
+
 
 .benefits ul {
   color: #ffffff;
