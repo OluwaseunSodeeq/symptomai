@@ -13,16 +13,14 @@
       href="{{ url_for('static', filename='styles/chatbox-styles.css') }}"
     />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="/api/static/src/chatbot.js"></script>
     <title>SymptomAI - Chatbot</title>
   </head>
   <body>
     <header>
       <div>
         <a href="{{ url_for('index') }}">
-          <!-- <img
-              id="header-logo"
-            /> -->
-          <img
+        <img
             src="{{ url_for('static', filename='images/ourlogo.jpg') }}"
             style="width: 50px; border-radius: 10px"
             class="header-img"
@@ -36,8 +34,7 @@
           placeholder="Search"
           class="search-bar"
         />
-        <!-- <box-icon name="search" class="search"></box-icon>
-        <box-icon type="solid" name="share-alt" class="share-icon"></box-icon> -->
+        
       </div>
     </header>
 
@@ -57,60 +54,8 @@
         placeholder="Enter your symptoms..."
         type="text"
       />
-      <box-icon class="box-icon" name="smile"></box-icon>
-      <box-icon class="box-icon" name="send" id="sendSymptom"></box-icon>
+      <img class="box-icon" name="send" id="sendSymptom" src="/api/static/images/icons/sendbtn.svg">
     </div>
     
-  <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const symptomSearchBox = document.getElementById("symptomSearchBox");
-        const sendSymptomButton = document.getElementById("sendSymptom");
-
-        sendSymptomButton.addEventListener("click", function () {
-          const symptoms = symptomSearchBox.value;
-          if (symptoms.trim() === "") {
-            alert("Please enter your symptoms.");
-            return;
-          }
-
-          // Disable the input field and button
-          symptomSearchBox.disabled = true;
-          sendSymptomButton.style.pointerEvents = "none";
-
-          fetch("https://symptomai-y0zm.onrender.com/diagnose", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ symptoms: symptoms }),
-          })
-            .then((response) => response.json())
-            .then((data) => {
-              if (data.error) {
-                alert(data.error);
-                return;
-              }
-              const main = document.getElementById("main");
-              const diagnosisDiv = document.createElement("div");
-              diagnosisDiv.classList.add("diagnosis-result");
-              diagnosisDiv.innerHTML = `
-                <p>${data.diagnosis}</p>
-                <img src="${data.confidence_score_image}" alt="Confidence Score" />
-              `;
-              main.appendChild(diagnosisDiv);
-              symptomSearchBox.value = "";
-            })
-            .catch((error) => {
-              console.error("Error:", error);
-              alert("An error occurred while diagnosing. Please try again.");
-            })
-            .finally(() => {
-              // Re-enable the input field and button
-              symptomSearchBox.disabled = false;
-              sendSymptomButton.style.pointerEvents = "auto";
-            });
-        });
-      });
-    </script>
-  </body>
+</body>
 </html>

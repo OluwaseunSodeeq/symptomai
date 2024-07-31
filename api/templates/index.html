@@ -42,7 +42,7 @@
                 <h1 style="font-size: 2.5em;">SymptomAI</h1>
                 <h4>Diagnose Your Symptoms with Artificial Intelligence</h4>
                 <p>Unwell? Try SymptomsAI. Chat about your symptoms and get insights on next steps</p>
-                <a class="btn hero-btn" href="{{ url_for('signIn') }}">Start Now<img src="{{ url_for('static', filename='images/diagonal-arrow.svg') }}" alt="" /></a>
+                <a class="btn hero-btn" href="{{ url_for('signIn') }}">Start Now<img src="/api/static/images/icons/diagonal-arrow.svg" alt="" /></a>
             </div>
             <div>
                 <img class="main-img" src="{{ url_for('static', filename='images/medicine.jpg') }}" alt="Image by Gerd Altmann from Pixabay" />
@@ -52,18 +52,9 @@
         <section id="about">
             <div class="about">
                 <h3>About SymptomAI</h3>
-                <img src="{{ url_for('static', filename='images/about-image.jpg') }}" alt="About Image" style="width:100%; max-width:600px;"/>
+                <img src="/api/static/images/icons/about.svg" alt="About Image" style="width:100%; max-width:600px;"/>
                 <p>SymptomsAI is an AI-powered chatbot designed to help users diagnose illnesses based on the symptoms they input. <br />This tool leverages artificial intelligence to provide accurate and reliable medical advice, ensuring users receive accurate and appropriate guidance.</p>
-                <h3>What we offer</h3>
-                <ul>
-                    <li>Early detection of potential illnesses</li>
-                    <li>Gain peace of mind with informed decisions</li>
-                    <li>Empower yourself with knowledge</li>
-                    <li>Reduced healthcare costs</li>
-                    <li>Increased self health awareness</li>
-                    <li>Convenience and Accessibility</li>
-                    <li>Reduced stress and anxiety</li>
-                </ul>
+                <p>Our software allows you to detect potential illnesses early, which enables you live a more healthy lifestyle. </p>            
                 <p><b>Please Note The Following</b><br />SymptomAI is not a Replacement for Professional Medical Advice<br />While SymptomAI provides valuable guidance, it is not a substitute for professional medical diagnosis and treatment. <br />Users are encouraged to consult healthcare professionals for comprehensive medical care.</p>
             </div>
         </section>
@@ -73,23 +64,23 @@
             <h4>What we bring to the table😉</h4>
             <div class="feature-cards">
                 <div class="feature-card">
-                    <img src="{{ url_for('static', filename='images/icons/ai-insights.svg') }}" alt="AI Insights Icon" class="feature-icon">
+                    <img src="/api/static/images/icons/ai-insights.svg" alt="AI Insights Icon" class="feature-icon">
                     <p>AI-powered insights to help you understand your symptoms.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="{{ url_for('static', filename='images/icons/fast-diagnosis.svg') }}" alt="Fast Diagnosis Icon" class="feature-icon">
+                    <img src="/api/static/images/icons/fast-diagnosis.svg" alt="Fast Diagnosis Icon" class="feature-icon">
                     <p>Fast and trustworthy diagnosis.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="{{ url_for('static', filename='images/icons/confidence-scores.svg') }}" alt="Confidence Scores Icon" class="feature-icon">
+                    <img src="/api/static/images/icons/confidence-scores.svg" alt="Confidence Scores Icon" class="feature-icon">
                     <p>Confidence scores to help you gauge the likelihood of each diagnosis.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="{{ url_for('static', filename='images/icons/personalized-guidance.svg') }}" alt="Personalized Guidance Icon" class="feature-icon">
+                    <img src="/api/static/images/icons/personalized-guidance.svg" alt="Personalized Guidance Icon" class="feature-icon">
                     <p>Personalized guidance on what to do next.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="{{ url_for('static', filename='images/icons/privacy.svg') }}" alt="Privacy Icon" class="feature-icon">
+                    <img src="/api/static/images/icons/privacy.svg" alt="Privacy Icon" class="feature-icon">
                     <p>Privacy and confidentiality.</p>
                 </div>
             </div>
@@ -99,12 +90,12 @@
             <h2>Get Diagnosed Now</h2>
             <p>Join the Future of Healthcare</p>
             <a class="btn other-btn" href="{{ url_for('signIn') }}" target="_blank">Sign in</a>
-            <p><b>Please Note The Following</b><br />Dependent on User Input<br />The accuracy of the diagnosis depends on the completeness and accuracy of the information provided by the user. <br />Incomplete or inaccurate symptom reporting can lead to incorrect advice.</p>
+            <!-- <p><b>Please Note The Following</b><br />Dependent on User Input<br />The accuracy of the diagnosis depends on the completeness and accuracy of the information provided by the user. <br />Incomplete or inaccurate symptom reporting can lead to incorrect advice.</p> -->
         </section>
     </main>
     <!-- Back to top arrow -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <img src="{{ url_for('static', filename='images/up-arrow.svg') }}" />
+        <img src="/api/static/images/icons/up-arrow.svg" />
     </button>
     <footer>
         <p><span id="currentYear"></span> SymptomAI</p>
