@@ -32,26 +32,29 @@ header {
 
   width: 80%;
   margin: 0 auto;
-  /* border: 2px solid red; */
+  
 }
 header p {
   font-size: 40px;
   color: #002366;
   margin-top: 10px;
-  /* border: 2px solid red; */
+
 }
 
 .icons {
   display: flex;
-  /* color: #000000; */
-  /* position: absolute; */
+
   right: 10px;
   top: 15px;
+}
+
+.icons p{
+  font-size: 20px;
 }
 .box-icon {
   cursor: pointer;
   color: #002366;
-  /* border: 2px solid red; */
+
 }
 .search-bar {
   display: none;
@@ -68,7 +71,7 @@ header p {
   height: 75%;
   overflow-y: scroll;
   padding: 10px;
-  /* border: 2px solid green; */
+  
 }
 .main::-webkit-scrollbar {
   display: none;
@@ -85,16 +88,11 @@ header p {
   font-size: 20px;
 }
 
-/* #typing { */
-/* font-size: 18px;
-  animation: typing 2s steps(18), cursor 0.4s step-end infinite alternate; */
-/* } */
 
 .hideMe {
   display: none;
 }
 
-/* style.css */
 /* style.css */
 .type-main-container {
   border-left: 3px solid #002366;
