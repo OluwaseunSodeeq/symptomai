@@ -52,7 +52,7 @@
         <section id="about">
             <div class="about">
                 <h3>About SymptomAI</h3>
-                <img src="/api/static/images/icons/about.svg" alt="About Image" style="width:100%; max-width:600px;"/>
+                <img src="/{{ url_for('static', filename='images/icons/about.svg') }}" alt="About Image" style="width:100%; max-width:600px;"/>
                 <p>SymptomsAI is an AI-powered chatbot designed to help users diagnose illnesses based on the symptoms they input. <br />This tool leverages artificial intelligence to provide accurate and reliable medical advice, ensuring users receive accurate and appropriate guidance.</p>
                 <p>Our software allows you to detect potential illnesses early, which enables you live a more healthy lifestyle. </p>            
                 <p><b>Please Note The Following</b><br />SymptomAI is not a Replacement for Professional Medical Advice<br />While SymptomAI provides valuable guidance, it is not a substitute for professional medical diagnosis and treatment. <br />Users are encouraged to consult healthcare professionals for comprehensive medical care.</p>
@@ -64,23 +64,23 @@
             <h4>What we bring to the table😉</h4>
             <div class="feature-cards">
                 <div class="feature-card">
-                    <img src="/api/static/images/icons/ai-insights.svg" alt="AI Insights Icon" class="feature-icon">
+                    <img src="{{ url_for('static', filename='images/icons/ai-insights.svg') }}" alt="AI Insights Icon" class="feature-icon">
                     <p>AI-powered insights to help you understand your symptoms.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="/api/static/images/icons/fast-diagnosis.svg" alt="Fast Diagnosis Icon" class="feature-icon">
+                    <img src="{{ url_for('static', filename='images/icons/fast-diagnosis.svg') }}" alt="Fast Diagnosis Icon" class="feature-icon">
                     <p>Fast and trustworthy diagnosis.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="/api/static/images/icons/confidence-scores.svg" alt="Confidence Scores Icon" class="feature-icon">
+                    <img src="{{ url_for('static', filename='images/icons/confidence-scores.svg') }}" alt="Confidence Scores Icon" class="feature-icon">
                     <p>Confidence scores to help you gauge the likelihood of each diagnosis.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="/api/static/images/icons/personalized-guidance.svg" alt="Personalized Guidance Icon" class="feature-icon">
+                    <img src="{{ url_for('static', filename='images/icons/personalized-guidance.svg') }}" alt="Personalized Guidance Icon" class="feature-icon">
                     <p>Personalized guidance on what to do next.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="/api/static/images/icons/privacy.svg" alt="Privacy Icon" class="feature-icon">
+                    <img src="{{ url_for('static', filename='images/icons/privacy.svg') }}" alt="Privacy Icon" class="feature-icon">
                     <p>Privacy and confidentiality.</p>
                 </div>
             </div>
@@ -95,7 +95,7 @@
     </main>
     <!-- Back to top arrow -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <img src="/api/static/images/icons/up-arrow.svg" />
+        <img src="{{ url_for('static', filename='images/icons/up-arrow.svg') }}" />
     </button>
     <footer>
         <p><span id="currentYear"></span> SymptomAI</p>

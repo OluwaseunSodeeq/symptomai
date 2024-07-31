@@ -13,7 +13,7 @@
       href="{{ url_for('static', filename='styles/chatbox-styles.css') }}"
     />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="/api/static/src/chatbot.js"></script>
+    <script src="{{ url_for('static', filename='src/chatbot.js') }}"></script>
     <title>SymptomAI - Chatbot</title>
   </head>
   <body>
@@ -54,7 +54,7 @@
         placeholder="Enter your symptoms..."
         type="text"
       />
-      <img class="box-icon" name="send" id="sendSymptom" src="/api/static/images/icons/sendbtn.svg">
+      <img class="box-icon" name="send" id="sendSymptom" src="{{ url_for('static', filename='images/icons/sendbtn.svg') }}">
     </div>
     
 </body>
