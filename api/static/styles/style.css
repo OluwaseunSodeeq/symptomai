@@ -224,7 +224,7 @@ nav a:hover {
 /* Benefits */
 .benefits {
   display: flex;
-  /* flex-direction: column; */
+/*   flex-direction: column; */
   gap: 15px;
   justify-content: center;
   align-items: center;
@@ -233,9 +233,8 @@ nav a:hover {
 }
 
 .flex-benefits{
-  display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
+   flex-direction: column;
+/*   flex-wrap: wrap; */
   justify-content: center;
   gap: 20px;
 }
