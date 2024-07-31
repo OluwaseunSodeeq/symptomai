@@ -224,12 +224,20 @@ nav a:hover {
 /* Benefits */
 .benefits {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 15px;
   justify-content: center;
   align-items: center;
   padding: 150px 40px;
   background-color: #008080;
+}
+
+.flex-benefits{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .benefits ul {
@@ -240,6 +248,7 @@ nav a:hover {
 .benefits h3 {
   color: #fff;
 }
+
 
 /* CTA (Call To Action) */
 .cta {
