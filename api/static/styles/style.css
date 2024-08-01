@@ -225,6 +225,7 @@ nav a:hover {
 .benefits {
   display: flex;
   gap: 15px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 150px 40px;
