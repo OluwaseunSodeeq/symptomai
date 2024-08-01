@@ -379,6 +379,9 @@ footer {
   .cta {
     padding: 150px 20px;
   }
+
+  .benefits p{
+    text-align: center;
 }
 
 @media (max-width: 992px) {
