@@ -8,12 +8,12 @@ SymptomAI is an AI prompt system that addresses the need of users who don't have
 It is currently in the development phase.
 
 #TEAM MEMBERS/COLLABORATORS
-+ Ukpong Zion
-+ Destiny
++ Ukpong Ogheneotega Zion
++ Destiny Osakpamwan Oronsaye
 + Ademola Fawaz Ope
 + Oluwaseun Sodeeq
 + Onah Nelson-OCHELLE
-+ Peace 
-+ Prince 
-+ Agunloye 
-+ Timilehin 
++ Peace Okumagbe
++ Nwanoro Prince Uchechukwu
++ Agunloye Loloade
++ Olatunji Okunlola Timilehin 
