@@ -9,11 +9,11 @@ It is currently in the development phase.
 
 #TEAM MEMBERS/COLLABORATORS
 + Ukpong Zion
-+ Destiny Oronsaye
++ Destiny
 + Ademola Fawaz Ope
 + Oluwaseun Sodeeq
 + Onah Nelson-OCHELLE
-+ Peace Okunmagbe
-+ Prince Uchechukwu Nwanoro
-+ Agunloye Lolade
-+ Timilehin Olatunji
++ Peace 
++ Prince 
++ Agunloye 
++ Timilehin 
