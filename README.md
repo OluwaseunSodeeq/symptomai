@@ -16,4 +16,4 @@ It is currently in the development phase.
 + Peace Okumagbe
 + Nwanoro Prince Uchechukwu
 + Agunloye Loloade
-+ Olatunji Okunlola Timilehin 
++ Olatunji Okunlola Timilehin.
