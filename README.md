@@ -1,5 +1,5 @@
 # SymptomAI
-![stethoscope](https://imageio.forbes.com/specials-images/imageserve/62911281f3fe1b1e2edf131b//960x0.jpg?format=jpg&width=1440)
+![SymptomAI](symptomai--home-desktop.png) 
 
 SymptomAI is an AI prompt system that addresses the need of users who don't have immediate access to healthcare. It diagnoses illnesses based on the reported symptoms and provides a confidence score to prove its accuracy and suggest remedies for relief.
 
@@ -7,7 +7,7 @@ SymptomAI is an AI prompt system that addresses the need of users who don't have
 
 It is currently in the development phase.
 
-#TEAM MEMBERS/COLLABORATORS
+# TEAM MEMBERS/COLLABORATORS
 + Ukpong Ogheneotega Zion
 + Destiny Osakpamwan Oronsaye
 + Ademola Fawaz Ope
@@ -15,5 +15,5 @@ It is currently in the development phase.
 + Onah Nelson-OCHELLE
 + Peace Okumagbe
 + Nwanoro Prince Uchechukwu
-+ Agunloye Loloade
++ Agunloye Lolade
 + Olatunji Okunlola Timilehin.
